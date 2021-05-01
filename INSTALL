@@ -1,9 +1,9 @@
-Building BitcoinTrust
+Building Latinio
 
-See doc/readme-qt.rst for instructions on building BitcoinTrust QT,
+See doc/readme-qt.rst for instructions on building Latinio QT,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of BitcoinTrust.
+implementation of Latinio.
 
 See doc/build-*.txt for instructions on building bitcointrustd,
 the intended-for-services, no-graphical-interface, reference
-implementation of BitcoinTrust.
+implementation of Latinio.
