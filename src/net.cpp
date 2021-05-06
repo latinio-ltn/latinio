@@ -1010,7 +1010,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "BitcoinTrust " + FormatFullVersion();
+        string strDesc = "Latinio " + FormatFullVersion();
 
         try {
           while (true) {

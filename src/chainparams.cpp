@@ -53,8 +53,8 @@ public:
         pchMessageStart[2] = 0xe0;
         pchMessageStart[3] = 0x4c;
         vAlertPubKey = ParseHex("0475da4a60a36b16c84148b44dfaf3e97ab07eae8e7216b68134ca6166e4078270b775576ce34308855d4766f7d79a818762c8460dcc2cb5286f2f65625bb362c8");
-        nDefaultPort = 29719;
-        nRPCPort = 29720;
+        nDefaultPort = 25839;
+        nRPCPort = 25840;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 20);
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -65,32 +65,33 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "1598473537 Bitcoin Trust Network Igualdad, Libertad, Justicia y Dignidad";
+        const char* pszTimestamp = "1620089865 Everyday Lifecoin/ La Moneda para la vida Diaria";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1598632834, vin, vout, 0);
+        CTransaction txNew(1, 1620089865, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1598632834;
+        genesis.nTime    = 1620089865;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 5169494;
+        genesis.nNonce   = 781254; // ojo cambiado
+
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000bee18888d3bfe358f523fff7891c8adc5ca85fe371f9b7115253589659c"));
-        assert(genesis.hashMerkleRoot == uint256("0x45094f531c5d83cf855e15e9b535778180fc06d08b1bde117acda73c05d0d54e"));
+        assert(hashGenesisBlock == uint256("0x000000a4c474bfdfb8a44965b4d6d09733d7486bd68ba0d324ae9e59389bec6b"));
+        assert(genesis.hashMerkleRoot == uint256("0xc50c4d2729973dd5b65424370bd34a03fb1cd68367d81057983c7aef4f6ae494"));
 
-        vSeeds.push_back(CDNSSeedData("node1.bitcointrust.info", "node1.bitcointrust.info"));
-        vSeeds.push_back(CDNSSeedData("node2.bitcointrust.info", "node2.bitcointrust.info"));
-        vSeeds.push_back(CDNSSeedData("node3.bitcointrust.info", "node3.bitcointrust.info"));
-        vSeeds.push_back(CDNSSeedData("node4.bitcointrust.info", "node4.bitcointrust.info"));
+        vSeeds.push_back(CDNSSeedData("ns1.latinio.io", "ns1.latinio.io"));
+        vSeeds.push_back(CDNSSeedData("ns2.latinio.io", "ns2.latinio.io"));
+        vSeeds.push_back(CDNSSeedData("ns3.latinio.io", "ns3.latinio.io"));
+        vSeeds.push_back(CDNSSeedData("ns4.latinio.io", "ns4.latinio.io"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 66);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 48);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1, 194);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
@@ -130,22 +131,22 @@ public:
         pchMessageStart[3] = 0xa2;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("04f7d2367b7d8e566eec5e8c1173f7d91ae76a2529f5cea543a80ebb4319216e0eee01be13a4343c42f3512daa332d05aef10f1c0f5dab18ce24d09d1dffbe23e7");
-        nDefaultPort = 39719;
-        nRPCPort = 39720;
+        nDefaultPort = 25839;
+        nRPCPort = 37340;
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime  = 1616186588;
+        genesis.nTime  = 1619930934;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 5169494;
+        genesis.nNonce = 127284;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x72b54a91d8d403bf0e429d670cc99b16e709bcc6c547c50eae9886f1c47ee581"));
 
-        vSeeds.push_back(CDNSSeedData("dns1test.bitcointrust.info", "dns1test.bitcointrust.info"));
-        vSeeds.push_back(CDNSSeedData("dns2test.bitcointrust.info", "dns2test.bitcointrust.info"));
-        vSeeds.push_back(CDNSSeedData("dns3test.bitcointrust.info", "dns3test.bitcointrust.info"));
+        assert(hashGenesisBlock == uint256("0x00003df49680d5458f7d2d1d9e667af326b0bf5829ec300931d7179aeb7cf079"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 128);
+        vSeeds.push_back(CDNSSeedData("dns1test.latinio.io", "dns1test.latinio.io"));
+        vSeeds.push_back(CDNSSeedData("dns2test.latinio.io", "dns2test.latinio.io"));
+
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 3);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 196);
         base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(1, 255);
         base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
@@ -171,14 +172,14 @@ public:
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime  = 1616186588;
+        genesis.nTime  = 1619902264;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 2;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 28585;
+        nDefaultPort = 29569;
         strDataDir = "regtest";
 
-        assert(hashGenesisBlock == uint256("0x5e4e4ce5b2554972c3e629a131e899653be99372f861655cc83903afb8f323f4"));
+        assert(hashGenesisBlock == uint256("0x61be632abf55850c4687f66e174692c309929829b42ab166a051c5b1e00392aa"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }

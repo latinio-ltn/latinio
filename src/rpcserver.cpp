@@ -207,7 +207,7 @@ Value stop(const Array& params, bool fHelp)
             "Stop BitcoinTrust server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "BitcoinTrust server stopping";
+    return "Latinio server stopping";
 }
 
 
@@ -495,7 +495,7 @@ void StartRPCThreads()
     {
         unsigned char rand_pwd[32];
         RAND_bytes(rand_pwd, 32);
-        string strWhatAmI = "To use bitcointrustd";
+        string strWhatAmI = "To use latiniod";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
         else if (mapArgs.count("-daemon"))
@@ -504,13 +504,13 @@ void StartRPCThreads()
             _("%s, you must set a rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=bitcointrustrpc\n"
+              "rpcuser=latiniorpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"BitcoinTrust Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"Latinio Alert\" admin@foo.com\n"),
                 strWhatAmI,
                 GetConfigFile().string(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32)),

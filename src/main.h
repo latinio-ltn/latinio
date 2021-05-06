@@ -25,7 +25,7 @@ class CReserveKey;
 class CWallet;
 
 /** The maximum allowed size for a serialized block, in bytes (network rule) */
-static const unsigned int MAX_BLOCK_SIZE = 1000000;
+static const unsigned int MAX_BLOCK_SIZE = 2000000;
 /** The maximum size for mined blocks */
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 /** The maximum size for transactions we're willing to relay/mine **/
@@ -43,35 +43,61 @@ static const unsigned int DEFAULT_MAX_ORPHAN_BLOCKS = 40;
 /** The maximum number of entries in an 'inv' protocol message */
 static const unsigned int MAX_INV_SZ = 50000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for transaction creation) */
-static const int64_t MIN_TX_FEE = 1000;
+static const int64_t MIN_TX_FEE = 10000;
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 /** No amount larger than this (in satoshi) is valid */
-static const int64_t MAX_MONEY = 21000000 * COIN;
+static const int64_t MAX_MONEY = 112000000 * COIN;
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 /** Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp. */
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 int64_t GetProofOfStakeRewardPercent(int nHeight);
 
-static const int64_t COIN_YEAR_REWARD_V1 = 10 * CENT;     //  10% -        1.000.000 block
-static const int64_t COIN_YEAR_REWARD_V2 = 3 * CENT;      //  3% -         2.000.000 block
-static const int64_t COIN_YEAR_REWARD_V3 = 1.5 * CENT;    //  1.5% -       3.000.000 block
-static const int64_t COIN_YEAR_REWARD_V4 = 0.75 * CENT;   //  0.75% -      4.000.000 block
-static const int64_t COIN_YEAR_REWARD_V5 = 0.375 * CENT;  //  0.375% -     5.000.000 block
-static const int64_t COIN_YEAR_REWARD_V6 = 0.1875 * CENT; //  0.1875% -    6.000.000 block
-static const int64_t COIN_YEAR_REWARD_V7 = 0.09375 * CENT;//  0.09375% -   7.000.000 block
-static const int64_t COIN_YEAR_REWARD_V8 = 0.046875 * CENT;// 0.046875% -  8.000.000 block
-static const int64_t COIN_YEAR_REWARD_V9 = 0.0234375 * CENT;//0.0234375% - 9.000.000 block
-static const int64_t COIN_YEAR_REWARD_V10 = 0.01171875 * CENT;//0.01171875% - 10.000.000 block
-static const int64_t COIN_YEAR_REWARD_V11 = 0.00585938 * CENT;//0.00585938% - 11.000.000 block
-static const int64_t COIN_YEAR_REWARD_V12 = 0.00292969 * CENT;//0.00292969% - 12.000.000 block
-static const int64_t COIN_YEAR_REWARD_V13 = 0.00146484 * CENT;//0.00146484% - 13.000.000 block
-static const int64_t COIN_YEAR_REWARD_V14 = 0.00146484 * CENT;//0.00146484% - 14.000.000 block
+static const int64_t COIN_YEAR_REWARD_V1 = 15 * CENT;    	//  10%- 1.000.000 block
+static const int64_t COIN_YEAR_REWARD_V2 = 12 * CENT;    	//  12%- 2.000.000 block
+static const int64_t COIN_YEAR_REWARD_V3 = 10 * CENT;    	//  10%- 3.000.000 block
+static const int64_t COIN_YEAR_REWARD_V4 = 8 * CENT;  		//  8% - 4.000.000 block
+static const int64_t COIN_YEAR_REWARD_V5 = 6 * CENT;  		//  6% - 5.000.000 block
+static const int64_t COIN_YEAR_REWARD_V6 = 5 * CENT; 		//  5% - 6.000.000 block
+static const int64_t COIN_YEAR_REWARD_V7 = 3 * CENT;		//  3% - 7.000.000 block
+static const int64_t COIN_YEAR_REWARD_V8 = 2 * CENT;		//  2% - 8.000.000 block
+static const int64_t COIN_YEAR_REWARD_V9 = 2 * CENT;		//  2% - 9.000.000 block
+static const int64_t COIN_YEAR_REWARD_V10 = 2 * CENT;		//  2% - 10.000.000 block
+static const int64_t COIN_YEAR_REWARD_V11 = 1 * CENT;		//	1% - 11.000.000 block
+static const int64_t COIN_YEAR_REWARD_V12 = 1 * CENT;		//	1% - 12.000.000 block
+static const int64_t COIN_YEAR_REWARD_V13 = 1 * CENT;		//	1% - 13.000.000 block
+static const int64_t COIN_YEAR_REWARD_V14 = 1 * CENT;		//	1% - 14.000.000 block
+static const int64_t COIN_YEAR_REWARD_V15 = 1 * CENT;		//	1% - 15.000.000 block
+static const int64_t COIN_YEAR_REWARD_V16 = 1 * CENT;		//	1% - 16.000.000 block
+static const int64_t COIN_YEAR_REWARD_V17 = 1 * CENT;		//	1% - 17.000.000 block
+static const int64_t COIN_YEAR_REWARD_V18 = 1 * CENT;		//	1% - 18.000.000 block
+static const int64_t COIN_YEAR_REWARD_V19 = 1 * CENT;		//	1% - 19.000.000 block
+static const int64_t COIN_YEAR_REWARD_V20 = 1 * CENT;		//	1% - 20.000.000 block
+static const int64_t COIN_YEAR_REWARD_V21 = 1 * CENT;		//	1% - 21.000.000 block
+static const int64_t COIN_YEAR_REWARD_V22 = 1 * CENT;		//	1% - 22.000.000 block
+static const int64_t COIN_YEAR_REWARD_V23 = 1 * CENT;		//	1% - 23.000.000 block
+static const int64_t COIN_YEAR_REWARD_V24 = 1 * CENT;		//	1% - 24.000.000 block
+static const int64_t COIN_YEAR_REWARD_V25 = 1 * CENT;		//	1% - 25.000.000 block
+static const int64_t COIN_YEAR_REWARD_V26 = 1 * CENT;		//	1% - 26.000.000 block
+static const int64_t COIN_YEAR_REWARD_V27 = 1 * CENT;		//	1% - 27.000.000 block
+static const int64_t COIN_YEAR_REWARD_V28 = 0.5 * CENT;		//	0.5% - 28.000.000 block
+static const int64_t COIN_YEAR_REWARD_V29 = 0.5 * CENT;		//	0.5% - 29.000.000 block
+static const int64_t COIN_YEAR_REWARD_V30 = 0.5 * CENT;		//	0.5% - 30.000.000 block
+static const int64_t COIN_YEAR_REWARD_V31 = 0.5 * CENT;		//	0.5% - 31.000.000 block
+static const int64_t COIN_YEAR_REWARD_V32 = 0.5 * CENT;		//	0.5% - 32.000.000 block
+static const int64_t COIN_YEAR_REWARD_V33 = 0.25 * CENT;	//	0.25% - 33.000.000 block
+static const int64_t COIN_YEAR_REWARD_V34 = 0.25 * CENT;	//	0.25% - 34.000.000 block
+static const int64_t COIN_YEAR_REWARD_V35 = 0.25 * CENT;	//	0.25% - 35.000.000 block
+static const int64_t COIN_YEAR_REWARD_V36 = 0.25 * CENT;	//	0.25% - 36.000.000 block
+static const int64_t COIN_YEAR_REWARD_V37 = 0.25 * CENT;	//	0.25% - 37.000.000 block
+static const int64_t COIN_YEAR_REWARD_V38 = 0.25 * CENT;	//	0.25% - 38.000.000 block
+static const int64_t COIN_YEAR_REWARD_V39 = 0.125 * CENT;	//	0.125% - 39.000.000 block
+static const int64_t COIN_YEAR_REWARD_V40 = 0.125 * CENT;	//	0.125% - 40.000.000 block
 
 static const int nCoinbaseMaturity = 100;            // 100 blocks
 static const int nCoinbaseMaturityADJ = 100;            // 100 blocks
 
-static const int64_t COIN_YEAR_REWARD = 3 * CENT; // 1% per year
+static const int64_t COIN_YEAR_REWARD = 15 * CENT; // 15% per year
 
 inline bool IsProtocolV1RetargetingFixed(int nHeight) { return TestNet() || nHeight > 40000000; }
 inline bool IsProtocolV2(int nHeight) { return TestNet() || nHeight > 40000001; }

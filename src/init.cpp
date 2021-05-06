@@ -90,7 +90,7 @@ void Shutdown()
     TRY_LOCK(cs_Shutdown, lockShutdown);
     if (!lockShutdown) return;
 
-    RenameThread("bitcointrust-shutoff");
+    RenameThread("latinio-shutoff");
     mempool.AddTransactionsUpdated(1);
     StopRPCThreads();
 #ifdef ENABLE_WALLET
@@ -161,8 +161,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: bitcointrust.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: bitcointrustd.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: latinio.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: latiniod.pid)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
     strUsage += "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n";
@@ -471,7 +471,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     if (GetBoolArg("-shrinkdebugfile", !fDebug))
         ShrinkDebugFile();
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    LogPrintf("BitcoinTrust version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
+    LogPrintf("Latinio version %s (%s)\n", FormatFullVersion(), CLIENT_DATE);
     LogPrintf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
     if (!fLogTimestamps)
         LogPrintf("Startup time: %s\n", DateTimeStrFormat("%x %H:%M:%S", GetTime()));
@@ -480,7 +480,7 @@ bool AppInit2(boost::thread_group& threadGroup)
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "BitcoinTrust server starting\n");
+        fprintf(stdout, "Latinio server starting\n");
 
     int64_t nStart;
 

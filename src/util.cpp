@@ -918,7 +918,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "bitcointrust";
+    const char* pszModule = "latinio";
 #endif
     if (pex)
         return strprintf(
@@ -951,10 +951,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinTrust
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinTrust
     // Mac: ~/Library/Application Support/BitcoinTrust
-    // Unix: ~/.bitcointrust
+    // Unix: ~/.latinio
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitcoinTrust";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Latinio";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -966,10 +966,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "BitcoinTrust";
+    return pathRet / "Latinio";
 #else
     // Unix
-    return pathRet / ".bitcointrust";
+    return pathRet / ".latinio";
 #endif
 #endif
 }
@@ -1018,7 +1018,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "bitcointrust.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "latinio.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1051,7 +1051,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "bitcointrustd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "latiniod.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
