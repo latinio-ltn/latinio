@@ -23,3 +23,9 @@ Library:
 sudo apt-get -y install software-properties-common nano build-essential qt5-default qt5-qmake qtbase5-dev-tools qttools5-dev-tools  libdb++-dev libboost-all-dev libminiupnpc-dev automake autoconf git pkg-config libjansson-dev libgmp-dev make g++ gcc libqrencode-dev qrencode libminiupnpc-dev automake autoconf 
 
 sudo apt-get -y install  libcurl-openssl1.0-dev libssl1.0-dev libcurl3
+
+    sudo env LC_ALL=C.UTF-8 add-apt-repository -y ppa:bitcoin/bitcoin
+    sudo apt-get -y update
+    sudo apt-get -y install libdb4.8-dev libdb4.8++-dev
+    
+    
