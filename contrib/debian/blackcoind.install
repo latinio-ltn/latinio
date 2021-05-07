@@ -1,2 +1,2 @@
-debian/bin/bitcointrustd usr/bin
-src/bitcointrustd usr/lib/bitcointrust
+debian/bin/latiniod usr/bin
+src/latiniod usr/lib/latinio

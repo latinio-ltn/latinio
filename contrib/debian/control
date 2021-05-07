@@ -1,4 +1,4 @@
-Source: bitcointrust
+Source: latinio
 Section: utils
 Priority: optional
 Maintainer: Jonas Smedegaard <dr@jones.dk>
@@ -19,11 +19,11 @@ Build-Depends: debhelper,
  libqt4-dev,
  libqrencode-dev
 Standards-Version: 3.9.2
-Homepage: http://www.bitcointrust.co/
-Vcs-Git: git://github.com/CoinBlack/bitcointrust.git
-Vcs-Browser: http://github.com/CoinBlack/bitcointrust
+Homepage: http://www.latinio.co/
+Vcs-Git: git://github.com/CoinBlack/latinio.git
+Vcs-Browser: http://github.com/CoinBlack/latinio
 
-Package: bitcointrustd
+Package: latiniod
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -38,10 +38,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 2+ GB of space, slowly growing.
  .
- This package provides bitcointrustd, a combined daemon and CLI tool to
+ This package provides latiniod, a combined daemon and CLI tool to
  interact with the daemon.
 
-Package: bitcointrust-qt
+Package: latinio-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

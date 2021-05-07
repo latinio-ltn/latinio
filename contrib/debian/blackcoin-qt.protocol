@@ -1,6 +1,6 @@
 [Protocol]
-exec=bitcointrust-qt '%u'
-protocol=bitcointrust
+exec=latinio-qt '%u'
+protocol=latinio
 input=none
 output=none
 helper=true

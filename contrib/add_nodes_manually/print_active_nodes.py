@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 """
-Agregar nodos de bitcointrust manualmente obteniendo la información desde el explorador de bloques
-Manually add bitcointrust nodes to daemon
+Agregar nodos de latinio manualmente obteniendo la información desde el explorador de bloques
+Manually add latinio nodes to daemon
 (python 3.x)
 """
 import json
@@ -23,9 +23,9 @@ try:
                     text_file.write(f"{DAEMON_PATH} addnode {i} add\n")
                 else:
                     text_file.write(f"{DAEMON_PATH} --datadir={DATADIR} addnode {i} add\n")
-        print("\nPlease run addnodes.sh to add nodes to bitcointrust daemon.")
+        print("\nPlease run addnodes.sh to add nodes to latinio daemon.")
     else:
-        print(f"Bitcointrust Blockchain Explorer not responding ( {URL_EXPLORER} )")
+        print(f"Latino Blockchain Explorer not responding ( {URL_EXPLORER} )")
 
 except:
     print(f"ERROR: No connection for {URL_EXPLORER} ")

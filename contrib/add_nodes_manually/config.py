@@ -1,3 +1,3 @@
-URL_EXPLORER = 'https://chainz.cryptoid.info/bct/api.dws?q=nodes'
-DAEMON_PATH = 'bitcointrustd'
+URL_EXPLORER = 'https://chainz.cryptoid.info/ltn/api.dws?q=nodes'
+DAEMON_PATH = 'latiniod'
 DATADIR = ''
