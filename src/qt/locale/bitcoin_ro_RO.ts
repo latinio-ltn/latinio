@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinTrust</source>
-        <translation>Despre BitcoinTrust</translation>
+        <source>About Latinio</source>
+        <translation>Despre Latinio</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinTrust&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;BitcoinTrust&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Latinio&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;Latinio&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BitcoinTrust developers</source>
+Copyright © 2018-2021 The Latinio developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BitcoinTrust developers</translation>
+Copyright © 2018-2021 The Latinio developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your BitcoinTrust addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele BitcoinTrust pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your Latinio addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele Latinio pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a BitcoinTrust address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă BitcoinTrust</translation>
+        <source>Sign a message to prove you own a Latinio address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Latinio</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinTrust address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă BitcoinTrust</translation>
+        <source>Verify a message to ensure it was signed with a specified Latinio address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Latinio</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>BitcoinTrust will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinTrust se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>Latinio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Latinio se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinTrust</source>
-        <translation>Arată informații despre BitcoinTrust</translation>
+        <source>Show information about Latinio</source>
+        <translation>Arată informații despre Latinio</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a BitcoinTrust address</source>
-        <translation>Trimite monede către o adresă BitcoinTrust</translation>
+        <source>Send coins to a Latinio address</source>
+        <translation>Trimite monede către o adresă Latinio</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for BitcoinTrust</source>
-        <translation>Modifică opțiuni de configurare pentru BitcoinTrust</translation>
+        <source>Modify configuration options for Latinio</source>
+        <translation>Modifică opțiuni de configurare pentru Latinio</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>BitcoinTrust</source>
-        <translation>BitcoinTrust</translation>
+        <source>Latinio</source>
+        <translation>Latinio</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About BitcoinTrust</source>
-        <translation>Despre BitcoinTrust</translation>
+        <source>&amp;About Latinio</source>
+        <translation>Despre Latinio</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>BitcoinTrust client</source>
-        <translation>Clientul BitcoinTrust</translation>
+        <source>Latinio client</source>
+        <translation>Clientul Latinio</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BitcoinTrust network</source>
-        <translation><numerusform>%n conexiune activă la reteaua BitcoinTrust</numerusform><numerusform>%n conexiuni active la reteaua BitcoinTrust</numerusform><numerusform>%n conexiuni active la reteaua BitcoinTrust</numerusform></translation>
+        <source>%n active connection(s) to Latinio network</source>
+        <translation><numerusform>%n conexiune activă la reteaua Latinio</numerusform><numerusform>%n conexiuni active la reteaua Latinio</numerusform><numerusform>%n conexiuni active la reteaua Latinio</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinTrust address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa BitcoinTrust invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Latinio address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa Latinio invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. BitcoinTrust can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. BitcoinTrust nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. Latinio can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. Latinio nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -999,8 +999,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinTrust address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă BitcoinTrust validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Latinio address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă Latinio validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1018,8 +1018,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>BitcoinTrust-Qt</source>
-        <translation>BitcoinTrust-Qt</translation>
+        <source>Latinio-Qt</source>
+        <translation>Latinio-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1091,13 +1091,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinTrust after logging in to the system.</source>
-        <translation>Pornește BitcoinTrust imdiat după logarea în sistem</translation>
+        <source>Automatically start Latinio after logging in to the system.</source>
+        <translation>Pornește Latinio imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinTrust on system login</source>
-        <translation>$Pornește BitcoinTrust la logarea în sistem</translation>
+        <source>&amp;Start Latinio on system login</source>
+        <translation>$Pornește Latinio la logarea în sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1106,8 +1106,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinTrust client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul BitcoinTrust pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the Latinio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul Latinio pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1136,7 +1136,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the BitcoinTrust network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Latinio network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1181,8 +1181,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinTrust.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea BitcoinTrust.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Latinio.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea Latinio.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1238,8 +1238,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinTrust.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea BitcoinTrust.</translation>
+        <source>This setting will take effect after restarting Latinio.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea Latinio.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1257,8 +1257,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinTrust network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua BitcoinTrust după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Latinio network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua Latinio după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1331,7 +1331,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcointrust: click-to-pay handler</source>
+        <source>Cannot start latinio: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1501,8 +1501,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinTrust-Qt help message to get a list with possible BitcoinTrust command-line options.</source>
-        <translation>Afișa mesajul de ajutor BitcoinTrust-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă BitcoinTrust.</translation>
+        <source>Show the Latinio-Qt help message to get a list with possible Latinio command-line options.</source>
+        <translation>Afișa mesajul de ajutor Latinio-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă Latinio.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1521,13 +1521,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinTrust - Debug window</source>
-        <translation>BitcoinTrust - fereastră depanare</translation>
+        <source>Latinio - Debug window</source>
+        <translation>Latinio - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinTrust Core</source>
-        <translation>BitcoinTrust Core</translation>
+        <source>Latinio Core</source>
+        <translation>Latinio Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1536,8 +1536,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinTrust debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare BitcoinTrust din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the Latinio debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare Latinio din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1546,8 +1546,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the BitcoinTrust RPC console.</source>
-        <translation>Bine ati venit la consola BitcoinTrust RPC.</translation>
+        <source>Welcome to the Latinio RPC console.</source>
+        <translation>Bine ati venit la consola Latinio RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1717,8 +1717,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Introduceți o adresă BitcoinTrust(ex:AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Introduceți o adresă Latinio(ex:LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1812,8 +1812,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid BitcoinTrust address</source>
-        <translation>Atenție: Adresă BitcoinTrust invalidă</translation>
+        <source>WARNING: Invalid Latinio address</source>
+        <translation>Atenție: Adresă Latinio invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1845,7 +1845,7 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <source>The address to send the payment to (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1886,8 +1886,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Introduceți o adresă BitcoinTrust(ex:AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Introduceți o adresă Latinio(ex:LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
 </context>
 <context>
@@ -1910,8 +1910,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Adresa cu care semnati mesajul(ex. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address to sign the message with (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Adresa cu care semnati mesajul(ex. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1947,8 +1947,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinTrust address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă BitcoinTrust</translation>
+        <source>Sign the message to prove you own this Latinio address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Latinio</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1974,13 +1974,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Adresa cu care a fost semnat mesajul(ex. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address the message was signed with (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Adresa cu care a fost semnat mesajul(ex. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinTrust address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă BitcoinTrust</translation>
+        <source>Verify the message to ensure it was signed with the specified Latinio address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Latinio</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1990,8 +1990,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Introduceți o adresă BitcoinTrust(ex:AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Introduceți o adresă Latinio(ex:LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2000,8 +2000,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinTrust signature</source>
-        <translation>Introduceti semnatura BitcoinTrust</translation>
+        <source>Enter Latinio signature</source>
+        <translation>Introduceti semnatura Latinio</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2579,8 +2579,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>BitcoinTrust version</source>
-        <translation>Versiune BitcoinTrust</translation>
+        <source>Latinio version</source>
+        <translation>Versiune Latinio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2589,8 +2589,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bitcointrustd</source>
-        <translation>Trimite comanda catre server sau bitcointrustd</translation>
+        <source>Send command to -server or latiniod</source>
+        <translation>Trimite comanda catre server sau latiniod</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2609,13 +2609,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitcointrust.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: bitcointrust.conf)</translation>
+        <source>Specify configuration file (default: latinio.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: latinio.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bitcointrustd.pid)</source>
-        <translation>Speficica fisier pid(implicit: bitcointrust.pid)</translation>
+        <source>Specify pid file (default: latiniod.pid)</source>
+        <translation>Speficica fisier pid(implicit: latinio.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2632,13 +2632,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcointrustrpc
+rpcuser=latiniorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Latinio Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2739,8 +2739,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinTrust will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit BitcoinTrust nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Latinio will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit Latinio nu va functiona corect.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3034,7 +3034,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. BitcoinTrust is shutting down.</source>
+        <source>Initialization sanity check failed. Latinio is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3089,13 +3089,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinTrust</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de BitcoinTrust</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Latinio</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de Latinio</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BitcoinTrust to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați BitcoinTrust pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart Latinio to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați Latinio pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3154,8 +3154,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. BitcoinTrust is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil BitcoinTrust ruleaza</translation>
+        <source>Unable to bind to %s on this computer. Latinio is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil Latinio ruleaza</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3184,7 +3184,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BitcoinTrust is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Latinio is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

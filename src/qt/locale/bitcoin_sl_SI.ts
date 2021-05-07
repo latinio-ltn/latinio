@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinTrust</source>
-        <translation>O BitcoinTrust</translation>
+        <source>About Latinio</source>
+        <translation>O Latinio</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinTrust&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BitcoinTrust&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;Latinio&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Latinio&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BitcoinTrust developers</source>
+Copyright © 2018-2021 The Latinio developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your BitcoinTrust addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši BitcoinTrust naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your Latinio addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši Latinio naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a BitcoinTrust address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva BitcoinTrust naslova</translation>
+        <source>Sign a message to prove you own a Latinio address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva Latinio naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinTrust address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim BitcoinTrust naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified Latinio address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim Latinio naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>BitcoinTrust will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinTrust se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>Latinio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Latinio se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinTrust</source>
-        <translation>Pokaži informacije o BitcoinTrust</translation>
+        <source>Show information about Latinio</source>
+        <translation>Pokaži informacije o Latinio</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,12 +390,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a BitcoinTrust address</source>
-        <translation>Pošlji kovance na BitcoinTrust naslov</translation>
+        <source>Send coins to a Latinio address</source>
+        <translation>Pošlji kovance na Latinio naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for BitcoinTrust</source>
+        <source>Modify configuration options for Latinio</source>
         <translation>Spremeni nastavitve za Blackcoin</translation>
     </message>
     <message>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>BitcoinTrust</source>
-        <translation>BitcoinTrust</translation>
+        <source>Latinio</source>
+        <translation>Latinio</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About BitcoinTrust</source>
-        <translation>&amp;O BitcoinTrust</translation>
+        <source>&amp;About Latinio</source>
+        <translation>&amp;O Latinio</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>BitcoinTrust client</source>
-        <translation>BitcoinTrust program</translation>
+        <source>Latinio client</source>
+        <translation>Latinio program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BitcoinTrust network</source>
-        <translation><numerusform>%n aktivne povezave na BitcoinTrust omrežje</numerusform><numerusform>%n aktivnih povezav na BitcoinTrust omrežje</numerusform><numerusform>%n aktivnih povezav na BitcoinTrust omrežje</numerusform><numerusform>%n aktivnih povezav na BitcoinTrust omrežje</numerusform></translation>
+        <source>%n active connection(s) to Latinio network</source>
+        <translation><numerusform>%n aktivne povezave na Latinio omrežje</numerusform><numerusform>%n aktivnih povezav na Latinio omrežje</numerusform><numerusform>%n aktivnih povezav na Latinio omrežje</numerusform><numerusform>%n aktivnih povezav na Latinio omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinTrust address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega BitcoinTrust naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Latinio address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega Latinio naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. BitcoinTrust can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program BitcoinTrust se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. Latinio can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program Latinio se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -997,8 +997,8 @@ Naslov: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinTrust address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven BitcoinTrust naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Latinio address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven Latinio naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1016,8 +1016,8 @@ Naslov: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>BitcoinTrust-Qt</source>
-        <translation>BitcoinTrust-Qt</translation>
+        <source>Latinio-Qt</source>
+        <translation>Latinio-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1089,13 +1089,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinTrust after logging in to the system.</source>
-        <translation>Avtomatično zaženi BitcoinTrust ob zagonu sistema.</translation>
+        <source>Automatically start Latinio after logging in to the system.</source>
+        <translation>Avtomatično zaženi Latinio ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinTrust on system login</source>
-        <translation>&amp;Zaženi BitcoinTrust ob prijavi v sistem</translation>
+        <source>&amp;Start Latinio on system login</source>
+        <translation>&amp;Zaženi Latinio ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1104,8 +1104,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinTrust client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za BitcoinTrust program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the Latinio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za Latinio program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1134,7 +1134,7 @@ Naslov: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the BitcoinTrust network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Latinio network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1179,8 +1179,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinTrust.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu BitcoinTrust aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Latinio.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu Latinio aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1236,8 +1236,8 @@ Naslov: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinTrust.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu BitcoinTrust aplikacije</translation>
+        <source>This setting will take effect after restarting Latinio.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu Latinio aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1255,8 +1255,8 @@ Naslov: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinTrust network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z BitcoinTrust omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Latinio network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z Latinio omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1329,7 +1329,7 @@ Naslov: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcointrust: click-to-pay handler</source>
+        <source>Cannot start latinio: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1499,8 +1499,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinTrust-Qt help message to get a list with possible BitcoinTrust command-line options.</source>
-        <translation>Prikaži BitcoinTrust-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice BitcoinTrust aplikacije</translation>
+        <source>Show the Latinio-Qt help message to get a list with possible Latinio command-line options.</source>
+        <translation>Prikaži Latinio-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice Latinio aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1519,13 +1519,13 @@ Naslov: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinTrust - Debug window</source>
-        <translation>BitcoinTrust - okno za odpravljanje napak</translation>
+        <source>Latinio - Debug window</source>
+        <translation>Latinio - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinTrust Core</source>
-        <translation>BitcoinTrust jedro</translation>
+        <source>Latinio Core</source>
+        <translation>Latinio jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1534,8 +1534,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinTrust debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri BitcoinTrust datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the Latinio debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri Latinio datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1544,8 +1544,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the BitcoinTrust RPC console.</source>
-        <translation>Dobrodošli v BitcoinTrust RPC konzoli.</translation>
+        <source>Welcome to the Latinio RPC console.</source>
+        <translation>Dobrodošli v Latinio RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1715,8 +1715,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Vnesite BitcoinTrust naslov (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Vnesite Latinio naslov (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1810,8 +1810,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid BitcoinTrust address</source>
-        <translation>OPOZORILO: Neveljaven BitcoinTrust naslov</translation>
+        <source>WARNING: Invalid Latinio address</source>
+        <translation>OPOZORILO: Neveljaven Latinio naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1843,7 +1843,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <source>The address to send the payment to (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1884,8 +1884,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Vnesite BitcoinTrust naslov (npr. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Vnesite Latinio naslov (npr. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
 </context>
 <context>
@@ -1908,8 +1908,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Naslov s katerim želite podpisati sporočilo (npr. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address to sign the message with (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Naslov s katerim želite podpisati sporočilo (npr. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1945,8 +1945,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinTrust address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva BitcoinTrust naslova</translation>
+        <source>Sign the message to prove you own this Latinio address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva Latinio naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1972,13 +1972,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address the message was signed with (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinTrust address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim BitcoinTrust naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified Latinio address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim Latinio naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1988,8 +1988,8 @@ Naslov: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Vnesite BitcoinTrust naslov (npr. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Vnesite Latinio naslov (npr. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1998,8 +1998,8 @@ Naslov: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinTrust signature</source>
-        <translation>Vnesite BitcoinTrust podpis</translation>
+        <source>Enter Latinio signature</source>
+        <translation>Vnesite Latinio podpis</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2577,8 +2577,8 @@ Naslov: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>BitcoinTrust version</source>
-        <translation>BitcoinTrust različica</translation>
+        <source>Latinio version</source>
+        <translation>Latinio različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2587,7 +2587,7 @@ Naslov: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bitcointrustd</source>
+        <source>Send command to -server or latiniod</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2607,13 +2607,13 @@ Naslov: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitcointrust.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: bitcointrust.conf)</translation>
+        <source>Specify configuration file (default: latinio.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: latinio.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bitcointrustd.pid)</source>
-        <translation>Določi pid datoteko (privzeto: bitcointrust.pid)</translation>
+        <source>Specify pid file (default: latiniod.pid)</source>
+        <translation>Določi pid datoteko (privzeto: latinio.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2630,13 +2630,13 @@ Naslov: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcointrustrpc
+rpcuser=latiniorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Latinio Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2737,8 +2737,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinTrust will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno BitcoinTrust ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Latinio will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno Latinio ne bo deloval.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3032,7 +3032,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. BitcoinTrust is shutting down.</source>
+        <source>Initialization sanity check failed. Latinio is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3087,13 +3087,13 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinTrust</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo BitcoinTrust</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Latinio</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo Latinio</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BitcoinTrust to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite BitcoinTrust za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart Latinio to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite Latinio za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3152,8 +3152,8 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. BitcoinTrust is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča BitcoinTrust aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. Latinio is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča Latinio aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3182,7 +3182,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BitcoinTrust is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Latinio is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

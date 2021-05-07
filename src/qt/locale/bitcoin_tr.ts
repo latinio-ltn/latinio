@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BitcoinTrust</source>
-        <translation>BitcoinTrust Hakkında</translation>
+        <source>About Latinio</source>
+        <translation>Latinio Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BitcoinTrust&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BitcoinTrust&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;Latinio&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Latinio&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BitcoinTrust developers</source>
+Copyright © 2018-2021 The Latinio developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2014 BitcoinTrust geliştiricileri</translation>
+Telif Hakkı © 2018-2021 Latinio geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your BitcoinTrust addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için BitcoinTrust adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your Latinio addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için Latinio adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a BitcoinTrust address</source>
-        <translation>Bir BitcoinTrust adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a Latinio address</source>
+        <translation>Bir Latinio adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified BitcoinTrust address</source>
-        <translation>Mesajın, belirli bir BitcoinTrust adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified Latinio address</source>
+        <translation>Mesajın, belirli bir Latinio adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>BitcoinTrust will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BitcoinTrust, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>Latinio will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Latinio, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about BitcoinTrust</source>
-        <translation>BitcoinTrust hakkındaki bilgiyi göster</translation>
+        <source>Show information about Latinio</source>
+        <translation>Latinio hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a BitcoinTrust address</source>
-        <translation>Bir BitcoinTrust adresine coin gönder</translation>
+        <source>Send coins to a Latinio address</source>
+        <translation>Bir Latinio adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for BitcoinTrust</source>
-        <translation>BitcoinTrust yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for Latinio</source>
+        <translation>Latinio yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+555"/>
-        <source>BitcoinTrust</source>
-        <translation>BitcoinTrust</translation>
+        <source>Latinio</source>
+        <translation>Latinio</translation>
     </message>
     <message>
         <location line="-555"/>
@@ -453,8 +453,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About BitcoinTrust</source>
-        <translation>BitcoinTrust &amp;Hakkında</translation>
+        <source>&amp;About Latinio</source>
+        <translation>Latinio &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>BitcoinTrust client</source>
-        <translation>BitcoinTrust istemcisi</translation>
+        <source>Latinio client</source>
+        <translation>Latinio istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to BitcoinTrust network</source>
-        <translation><numerusform>BitcoinTrust ağına %n etkin bağlantı</numerusform><numerusform>BitcoinTrust ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to Latinio network</source>
+        <translation><numerusform>Latinio ağına %n etkin bağlantı</numerusform><numerusform>Latinio ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BitcoinTrust address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir BitcoinTrust adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Latinio address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir Latinio adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. BitcoinTrust can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. BitcoinTrust artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. Latinio can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. Latinio artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1004,8 +1004,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BitcoinTrust address.</source>
-        <translation>Girilen %1 adresi, geçerli bir BitcoinTrust adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Latinio address.</source>
+        <translation>Girilen %1 adresi, geçerli bir Latinio adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1023,8 +1023,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>BitcoinTrust-Qt</source>
-        <translation>BitcoinTrust-Qt</translation>
+        <source>Latinio-Qt</source>
+        <translation>Latinio-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1096,13 +1096,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BitcoinTrust after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra BitcoinTrust&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start Latinio after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra Latinio&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BitcoinTrust on system login</source>
-        <translation>Sisteme girişte BitcoinTrust&apos;i &amp;başlat</translation>
+        <source>&amp;Start Latinio on system login</source>
+        <translation>Sisteme girişte Latinio&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1111,8 +1111,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BitcoinTrust client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide BitcoinTrust istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the Latinio client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide Latinio istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1141,7 +1141,7 @@ Adres: %4
     </message>
     <message>
         <location line="-57"/>
-        <source>Connect to the BitcoinTrust network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Latinio network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1186,8 +1186,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BitcoinTrust.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, BitcoinTrust yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Latinio.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, Latinio yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1243,8 +1243,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BitcoinTrust.</source>
-        <translation>Bu ayar, BitcoinTrust&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting Latinio.</source>
+        <translation>Bu ayar, Latinio&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1262,8 +1262,8 @@ Adres: %4
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BitcoinTrust network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak BitcoinTrust ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Latinio network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak Latinio ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1336,7 +1336,7 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start bitcointrust: click-to-pay handler</source>
+        <source>Cannot start latinio: click-to-pay handler</source>
         <translation>Blackcoin: tıkla-ve-öde işleyicisi başlatılamıyor</translation>
     </message>
 </context>
@@ -1506,8 +1506,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BitcoinTrust-Qt help message to get a list with possible BitcoinTrust command-line options.</source>
-        <translation>Muhtemel BitcoinTrust komut satırı seçeneklerinin bir listesini getirmek için BitcoinTrust-Qt yardım mesajını göster</translation>
+        <source>Show the Latinio-Qt help message to get a list with possible Latinio command-line options.</source>
+        <translation>Muhtemel Latinio komut satırı seçeneklerinin bir listesini getirmek için Latinio-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1526,13 +1526,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>BitcoinTrust - Debug window</source>
-        <translation>BitcoinTrust - Hata ayıklama penceresi</translation>
+        <source>Latinio - Debug window</source>
+        <translation>Latinio - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BitcoinTrust Core</source>
-        <translation>BitcoinTrust Core</translation>
+        <source>Latinio Core</source>
+        <translation>Latinio Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1541,8 +1541,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BitcoinTrust debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>BitcoinTrust hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the Latinio debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Latinio hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1551,8 +1551,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-28"/>
-        <source>Welcome to the BitcoinTrust RPC console.</source>
-        <translation>BitcoinTrust RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Latinio RPC console.</source>
+        <translation>Latinio RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1722,8 +1722,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-171"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Bir BitcoinTrust adresi gir (örn: AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Bir Latinio adresi gir (örn: LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1817,8 +1817,8 @@ Adres: %4
     </message>
     <message>
         <location line="+241"/>
-        <source>WARNING: Invalid BitcoinTrust address</source>
-        <translation>UYARI: Geçersiz BitcoinTrust adresi</translation>
+        <source>WARNING: Invalid Latinio address</source>
+        <translation>UYARI: Geçersiz Latinio adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1850,8 +1850,8 @@ Adres: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Ödemenin gönderileceği adres (örn:  AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address to send the payment to (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Ödemenin gönderileceği adres (örn:  LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1891,8 +1891,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Bir BitcoinTrust adresi girin (örn: AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Bir Latinio adresi girin (örn: LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
 </context>
 <context>
@@ -1915,8 +1915,8 @@ Adres: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Mesajın imzalanacağı adres (örn: AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address to sign the message with (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Mesajın imzalanacağı adres (örn: LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1952,8 +1952,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BitcoinTrust address</source>
-        <translation>Bu BitcoinTrust adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this Latinio address</source>
+        <translation>Bu Latinio adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1979,13 +1979,13 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Mesajın imzalandığı adres (örn: AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>The address the message was signed with (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Mesajın imzalandığı adres (örn: LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BitcoinTrust address</source>
-        <translation>Mesajın, belirtilen BitcoinTrust adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified Latinio address</source>
+        <translation>Mesajın, belirtilen Latinio adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -1995,8 +1995,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BitcoinTrust address (e.g. AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
-        <translation>Bir BitcoinTrust adresi girin (örn: AJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
+        <source>Enter a Latinio address (e.g. LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</source>
+        <translation>Bir Latinio adresi girin (örn: LJenUzJeQY4Y42AEACPgrYMCi4bZbDXWoK)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2005,8 +2005,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BitcoinTrust signature</source>
-        <translation>BitcoinTrust imzası gir</translation>
+        <source>Enter Latinio signature</source>
+        <translation>Latinio imzası gir</translation>
     </message>
     <message>
         <location line="+85"/>
@@ -2584,8 +2584,8 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+8"/>
-        <source>BitcoinTrust version</source>
-        <translation>BitcoinTrust versiyonu</translation>
+        <source>Latinio version</source>
+        <translation>Latinio versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2594,8 +2594,8 @@ Adres: %4
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or bitcointrustd</source>
-        <translation>-sunucu veya bitcointrustd&apos;ye komut gönder</translation>
+        <source>Send command to -server or latiniod</source>
+        <translation>-sunucu veya latiniod&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2614,13 +2614,13 @@ Adres: %4
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: bitcointrust.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: bitcointrust.conf)</translation>
+        <source>Specify configuration file (default: latinio.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: latinio.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: bitcointrustd.pid)</source>
-        <translation>pid dosyasını belirt (varsayılan: bitcointrust.pid)</translation>
+        <source>Specify pid file (default: latiniod.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: latinio.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2637,24 +2637,24 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=bitcointrustrpc
+rpcuser=latiniorpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Latinio Alert&quot; admin@foo.com
 </source>
         <translation>%s, konfigürasyon dosyasında bir rpcpassword belirlemelisiniz: 
 %s
 Aşağıdaki rastgele şifreyi kullanmanız tavsiye edilir:
-rpcuser=bitcointrustrpc
+rpcuser=latiniorpc
 rpcpassword=%s
 (bu şifreyi hatırlamanız gerekmemektedir)
 Kullanıcı adı ve şifre aynı OLMAMALIDIR.
 Dosya mevcut değilse, sadece sahibi tarafından okunabilir yetkiyle yaratın.
 Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanız önerilir;
-örneğin: alertnotify=echo %%s | mail -s &quot;BitcoinTrust Alarmı&quot; admin@foo.com
+örneğin: alertnotify=echo %%s | mail -s &quot;Latinio Alarmı&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2754,8 +2754,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+46"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BitcoinTrust will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, BitcoinTrust düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Latinio will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, Latinio düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -3049,8 +3049,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+8"/>
-        <source>Initialization sanity check failed. BitcoinTrust is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. BitcoinTrust kapatılıyor.</translation>
+        <source>Initialization sanity check failed. Latinio is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. Latinio kapatılıyor.</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3104,13 +3104,13 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BitcoinTrust</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir BitcoinTrust versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Latinio</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir Latinio versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BitcoinTrust to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için BitcoinTrust&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart Latinio to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için Latinio&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3169,8 +3169,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+131"/>
-        <source>Unable to bind to %s on this computer. BitcoinTrust is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. BitcoinTrust muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. Latinio is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. Latinio muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-108"/>
@@ -3199,8 +3199,8 @@ Ayrıca sorunlardan haberdar edilmek için alertnotify parametresini doldurmanı
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. BitcoinTrust is probably already running.</source>
-        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. BitcoinTrust muhtemelen halen çalışmaktadır.</translation>
+        <source>Cannot obtain a lock on data directory %s. Latinio is probably already running.</source>
+        <translation>Veri klasörü %s üzerinde kilit elde edilemedi. Latinio muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="+4"/>
