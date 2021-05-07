@@ -30,7 +30,7 @@ Library:
     
     git clone https://github.com/blockchaintechnologysas/latinio.git
     
-    cd Latinio/src
+    cd latinio/src
     make -j$(nproc) -f makefile.unix
 
     strip latiniod
