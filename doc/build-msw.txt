@@ -7,7 +7,7 @@ cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP
 software written by Thomas Bernard.
 
 
-See readme-qt.rst for instructions on building BitcoinTrust QT, the
+See readme-qt.rst for instructions on building Latinio QT, the
 graphical user interface.
 
 WINDOWS BUILD NOTES
@@ -76,9 +76,9 @@ make -f Makefile.mingw
 mkdir miniupnpc
 cp *.h miniupnpc/
 
-BitcoinTrust
+Latinio
 -------
 DOS prompt:
-cd \bitcointrust\src
+cd \latinio\src
 mingw32-make -f makefile.mingw
-strip bitcointrustd.exe
+strip latiniod.exe
