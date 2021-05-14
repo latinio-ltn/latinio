@@ -28,7 +28,7 @@ Library:
     sudo apt-get -y update
     sudo apt-get -y install libdb4.8-dev libdb4.8++-dev
     
-    git clone https://github.com/blockchaintechnologysas/latinio.git
+    git clone https://github.com/latinio-ltn/latinio.git
     
     cd latinio/src
     make -j$(nproc) -f makefile.unix
