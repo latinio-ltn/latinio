@@ -1,4 +1,4 @@
-Latinio LTN development tree
+Latinio LTN development tree Ver 1.0.0.2
 
 Latinio is a PoS-based cryptocurrency.
 
