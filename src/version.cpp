@@ -11,7 +11,7 @@
 const std::string CLIENT_NAME("Latinio Core");
 
 // Client version number
-#define CLIENT_VERSION_SUFFIX   "1.0.0.1"
+#define CLIENT_VERSION_SUFFIX   "1.0.0.2"
 
 
 // The following part of the code determines the CLIENT_BUILD variable.
