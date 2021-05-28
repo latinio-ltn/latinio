@@ -53,7 +53,7 @@ inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MO
 static const unsigned int LOCKTIME_THRESHOLD = 500000000; // Tue Nov  5 00:53:20 1985 UTC
 int64_t GetProofOfStakeRewardPercent(int nHeight);
 
-static const int64_t COIN_YEAR_REWARD_V1 = 15 * CENT;    	//  10%-    46.000 block
+static const int64_t COIN_YEAR_REWARD_V1 = 15 * CENT;    	//  15%-    46.000 block
 static const int64_t COIN_YEAR_REWARD_V2 = 30 * CENT;    	//  30%- 1.000.000 block
 static const int64_t COIN_YEAR_REWARD_V2 = 20 * CENT;    	//  20%- 2.000.000 block
 static const int64_t COIN_YEAR_REWARD_V2 = 15 * CENT;    	//  15%- 3.000.000 block
