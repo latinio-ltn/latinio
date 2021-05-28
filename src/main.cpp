@@ -1020,87 +1020,87 @@ int64_t GetProofOfStakeRewardPercent(int nHeight)
     int64_t nRewardCoinYear = COIN_YEAR_REWARD_V1;
 
     if (nHeight > 42000001) // ...........................Block  42.000.000 - 0.125% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V41;
+        nRewardCoinYear = COIN_YEAR_REWARD_V43;
 	else if (nHeight >= 40000001 && nHeight <= 41000000) // Block 41.000.000 - 0.125% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V40;
+		nRewardCoinYear = COIN_YEAR_REWARD_V42;
 	else if (nHeight >= 39000001 && nHeight <= 40000000) // Block 40.000.000 - 0.25% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V39;
+		nRewardCoinYear = COIN_YEAR_REWARD_V41;
 	else if (nHeight >= 38000001 && nHeight <= 39000000) // Block 39.000.000 - 0.25% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V38;
+		nRewardCoinYear = COIN_YEAR_REWARD_V40;
 	else if (nHeight >= 37000001 && nHeight <= 38000000) // Block 38.000.000 - 0.25% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V37;
+		nRewardCoinYear = COIN_YEAR_REWARD_V39;
 	else if (nHeight >= 36000001 && nHeight <= 37000000) // Block 37.000.000 - 0.25% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V36;
+		nRewardCoinYear = COIN_YEAR_REWARD_V38;
 	else if (nHeight >= 35000001 && nHeight <= 36000000) // Block 36.000.000 - 0.25% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V35;
+		nRewardCoinYear = COIN_YEAR_REWARD_V37;
 	else if (nHeight >= 34000001 && nHeight <= 35000000) // Block 35.000.000 - 0.25% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V34;
+		nRewardCoinYear = COIN_YEAR_REWARD_V36;
 	else if (nHeight >= 33000001 && nHeight <= 34000000) // Block 34.000.000 - 0.5% POS  
-		nRewardCoinYear = COIN_YEAR_REWARD_V33;		
+		nRewardCoinYear = COIN_YEAR_REWARD_V35;		
 	else if (nHeight >= 32000001 && nHeight <= 33000000) // Block 33.000.000 - 0.5% POS    
-        nRewardCoinYear = COIN_YEAR_REWARD_V32;
+        nRewardCoinYear = COIN_YEAR_REWARD_V34;
 	else if (nHeight >= 31000001 && nHeight <= 32000000) // Block 32.000.000 - 0.5% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V31;
+        nRewardCoinYear = COIN_YEAR_REWARD_V33;
 	else if (nHeight >= 30000001 && nHeight <= 31000000) // Block 31.000.000 - 0.5% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V30;
+        nRewardCoinYear = COIN_YEAR_REWARD_V32;
 	else if (nHeight >= 29000001 && nHeight <= 30000000) // Block 30.000.000 - 0.5% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V29;
+        nRewardCoinYear = COIN_YEAR_REWARD_V31;
 	else if (nHeight >= 28000001 && nHeight <= 29000000) // Block 29.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V28;
+        nRewardCoinYear = COIN_YEAR_REWARD_V30;
 	else if (nHeight >= 27000001 && nHeight <= 28000000) // Block 28.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V27;
+        nRewardCoinYear = COIN_YEAR_REWARD_V29;
 	else if (nHeight >= 26000001 && nHeight <= 27000000) // Block 27.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V26;
+        nRewardCoinYear = COIN_YEAR_REWARD_V28;
 	else if (nHeight >= 25000001 && nHeight <= 26000000) // Block 26.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V25;
+        nRewardCoinYear = COIN_YEAR_REWARD_V27;
 	else if (nHeight >= 24000001 && nHeight <= 25000000) // Block 25.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V24;
+        nRewardCoinYear = COIN_YEAR_REWARD_V26;
 	else if (nHeight >= 23000001 && nHeight <= 24000000) // Block 24.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V23;
+        nRewardCoinYear = COIN_YEAR_REWARD_V25;
 	else if (nHeight >= 22000001 && nHeight <= 23000000) // Block 23.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V22;
+        nRewardCoinYear = COIN_YEAR_REWARD_V24;
 	else if (nHeight >= 21000001 && nHeight <= 22000000) // Block 22.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V21;
+        nRewardCoinYear = COIN_YEAR_REWARD_V23;
 	else if (nHeight >= 20000001 && nHeight <= 21000000) // Block 21.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V20;
+        nRewardCoinYear = COIN_YEAR_REWARD_V22;
 	else if (nHeight >= 19000001 && nHeight <= 20000000) // Block 20.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V19;
+        nRewardCoinYear = COIN_YEAR_REWARD_V21;
 	else if (nHeight >= 18000001 && nHeight <= 19000000) // Block 19.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V18;
+        nRewardCoinYear = COIN_YEAR_REWARD_V20;
 	else if (nHeight >= 17000001 && nHeight <= 18000000) // Block 18.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V17;
+        nRewardCoinYear = COIN_YEAR_REWARD_V19;
 	else if (nHeight >= 16000001 && nHeight <= 17000000) // Block 17.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V16;
+        nRewardCoinYear = COIN_YEAR_REWARD_V18;
 	else if (nHeight >= 15000001 && nHeight <= 16000000) // Block 16.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V15;		
+        nRewardCoinYear = COIN_YEAR_REWARD_V17;		
     else if (nHeight >= 14000001 && nHeight <= 15000000) // Block 15.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V14; 
+        nRewardCoinYear = COIN_YEAR_REWARD_V16; 
     else if (nHeight >= 13000001 && nHeight <= 14000000) // Block 14.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V13; 
+        nRewardCoinYear = COIN_YEAR_REWARD_V15; 
     else if (nHeight >= 12000001 && nHeight <= 13000000) // Block 13.000.000 - 1% POS      
-        nRewardCoinYear = COIN_YEAR_REWARD_V12; 
+        nRewardCoinYear = COIN_YEAR_REWARD_V14; 
     else if (nHeight >= 11000001 && nHeight <= 12000000) // Block 12.000.000 - 2% POS       
-        nRewardCoinYear = COIN_YEAR_REWARD_V11; 
+        nRewardCoinYear = COIN_YEAR_REWARD_V13; 
     else if (nHeight >= 10000001 && nHeight <= 11000000) // Block 11.000.000 - 2% POS     
-        nRewardCoinYear = COIN_YEAR_REWARD_V10;    
+        nRewardCoinYear = COIN_YEAR_REWARD_V12;    
     else if (nHeight >= 9000001 && nHeight <= 10000000) // Block 10.000.000 - 2% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V9;    
+        nRewardCoinYear = COIN_YEAR_REWARD_V11;    
     else if (nHeight >= 8000001 && nHeight <= 9000000) // Block 9.000.000 3% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V8;    
+        nRewardCoinYear = COIN_YEAR_REWARD_V10;    
     else if (nHeight >= 7000001 && nHeight <= 8000000) // Block 8.000.000 5% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V7;    
+        nRewardCoinYear = COIN_YEAR_REWARD_V9;    
     else if (nHeight >= 6000001 && nHeight <= 7000000) // Block 7.000.000 6% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V6;
+        nRewardCoinYear = COIN_YEAR_REWARD_V8;
     else if (nHeight >= 5000001 && nHeight <= 6000000) // Block 6.000.000 8% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V5;
+        nRewardCoinYear = COIN_YEAR_REWARD_V7;
     else if (nHeight >= 4000001 && nHeight <= 5000000) // Block 5.000.000 10% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V4;       
+        nRewardCoinYear = COIN_YEAR_REWARD_V6;       
     else if (nHeight >= 3000001 && nHeight <= 4000000) // Block 4.000.000 12% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V3;
+        nRewardCoinYear = COIN_YEAR_REWARD_V5;
     else if (nHeight >= 2000001 && nHeight < 3000000) // Block 3.000.000 15% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V2;		
+        nRewardCoinYear = COIN_YEAR_REWARD_V4;		
     else if (nHeight >= 1000000 && nHeight < 2000000) // Block 2.000.000 20% POS
-        nRewardCoinYear = COIN_YEAR_REWARD_V2;	
+        nRewardCoinYear = COIN_YEAR_REWARD_V3;	
     else if (nHeight >= 46000 && nHeight < 1000000) // Block 1.000.000 30% POS
         nRewardCoinYear = COIN_YEAR_REWARD_V2;
     else if (nHeight < 46000) //....................... Block   46.000 15% POS
