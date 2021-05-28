@@ -204,7 +204,7 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "Stop BitcoinTrust server.");
+            "Stop Latinio server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
     return "Latinio server stopping";
