@@ -948,9 +948,9 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinTrust
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinTrust
-    // Mac: ~/Library/Application Support/BitcoinTrust
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Latinio
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Latinio
+    // Mac: ~/Library/Application Support/Latinio
     // Unix: ~/.latinio
 #ifdef WIN32
     // Windows
