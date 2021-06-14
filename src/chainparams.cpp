@@ -65,26 +65,27 @@ public:
         //    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
         //    CTxOut(empty)
         //  vMerkleTree: 12630d16a9
-        const char* pszTimestamp = "1620089865 Everyday Lifecoin/ La Moneda para la vida Diaria";
+        
+        const char* pszTimestamp = "Everyday Lifecoin / La Moneda para la vida Diaria";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1620089865, vin, vout, 0);
+        CTransaction txNew(1, 1623702830, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1620089865;
+        genesis.nTime    = 1623702830;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 781254; // ojo cambiado
+        genesis.nNonce   = 0; // ojo cambiado 781254
 
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x000000a4c474bfdfb8a44965b4d6d09733d7486bd68ba0d324ae9e59389bec6b"));
-        assert(genesis.hashMerkleRoot == uint256("0xc50c4d2729973dd5b65424370bd34a03fb1cd68367d81057983c7aef4f6ae494"));
+        assert(hashGenesisBlock == uint256("")); //0x000000a4c474bfdfb8a44965b4d6d09733d7486bd68ba0d324ae9e59389bec6b
+        assert(genesis.hashMerkleRoot == uint256(""));//0xc50c4d2729973dd5b65424370bd34a03fb1cd68367d81057983c7aef4f6ae494
 
         vSeeds.push_back(CDNSSeedData("ns1.latinio.io", "ns1.latinio.io"));
         vSeeds.push_back(CDNSSeedData("ns2.latinio.io", "ns2.latinio.io"));
@@ -136,12 +137,12 @@ public:
         strDataDir = "testnet";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime  = 1619930934;
+        genesis.nTime  = 1623702830;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
-        genesis.nNonce = 127284;
+        genesis.nNonce = 0; //127284
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x00003df49680d5458f7d2d1d9e667af326b0bf5829ec300931d7179aeb7cf079"));
+        assert(hashGenesisBlock == uint256(""));//0x00003df49680d5458f7d2d1d9e667af326b0bf5829ec300931d7179aeb7cf079
 
         vSeeds.push_back(CDNSSeedData("dns1test.latinio.io", "dns1test.latinio.io"));
         vSeeds.push_back(CDNSSeedData("dns2test.latinio.io", "dns2test.latinio.io"));
@@ -172,14 +173,14 @@ public:
         pchMessageStart[2] = 0xb5;
         pchMessageStart[3] = 0xda;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime  = 1619902264;
+        genesis.nTime  = 1623702830;
         genesis.nBits  = bnProofOfWorkLimit.GetCompact();
         genesis.nNonce = 2;
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 29569;
         strDataDir = "regtest";
 
-        assert(hashGenesisBlock == uint256("0x61be632abf55850c4687f66e174692c309929829b42ab166a051c5b1e00392aa"));
+        assert(hashGenesisBlock == uint256("")); //0x61be632abf55850c4687f66e174692c309929829b42ab166a051c5b1e00392aa
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
