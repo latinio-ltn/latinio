@@ -1083,23 +1083,23 @@ int64_t GetProofOfStakeRewardPercent(int nHeight)
         nRewardCoinYear = COIN_YEAR_REWARD_V12; 
     else if (nHeight >= 10000001 && nHeight <= 11000000) // Block 11.000.000 - 2% POS     
         nRewardCoinYear = COIN_YEAR_REWARD_V11;    
-    else if (nHeight >= 9000001 && nHeight <= 10000000) // Block 10.000.000 - 2% POS
+    else if (nHeight >= 9000001 && nHeight <= 10000000) // Block 10.000.000	2% POS 10 año
         nRewardCoinYear = COIN_YEAR_REWARD_V10;    
-    else if (nHeight >= 8000001 && nHeight <= 9000000) // Block 9.000.000 3% POS
+    else if (nHeight >= 8000001 && nHeight <= 9000000) // Block 9.000.000	2% POS 9 año
         nRewardCoinYear = COIN_YEAR_REWARD_V9;    
-    else if (nHeight >= 7000001 && nHeight <= 8000000) // Block 8.000.000 5% POS
+    else if (nHeight >= 7000001 && nHeight <= 8000000) // Block 8.000.000	2% POS 8 año
         nRewardCoinYear = COIN_YEAR_REWARD_V8;    
-    else if (nHeight >= 6000001 && nHeight <= 7000000) // Block 7.000.000 6% POS
+    else if (nHeight >= 6000001 && nHeight <= 7000000) // Block 7.000.000	2% POS 7 año
         nRewardCoinYear = COIN_YEAR_REWARD_V7;
-    else if (nHeight >= 5000001 && nHeight <= 6000000) // Block 6.000.000 8% POS
+    else if (nHeight >= 5000001 && nHeight <= 6000000) // Block 6.000.000	3% POS 6 año
         nRewardCoinYear = COIN_YEAR_REWARD_V6;
-    else if (nHeight >= 4000001 && nHeight <= 5000000) // Block 5.000.000 10% POS
+    else if (nHeight >= 4000001 && nHeight <= 5000000) // Block 5.000.000	3% POS 5 año
         nRewardCoinYear = COIN_YEAR_REWARD_V5;       
-    else if (nHeight >= 3000001 && nHeight <= 4000000) // Block 4.000.000	4% POS 1 año
+    else if (nHeight >= 3000001 && nHeight <= 4000000) // Block 4.000.000	4% POS 4 año
         nRewardCoinYear = COIN_YEAR_REWARD_V4;
-    else if (nHeight >= 2000001 && nHeight < 3000000) // Block 3.000.000 	4% POS 1 año
+    else if (nHeight >= 2000001 && nHeight < 3000000) // Block 3.000.000 	4% POS 3 año
         nRewardCoinYear = COIN_YEAR_REWARD_V3;		
-    else if (nHeight >= 1000000 && nHeight < 2000000) // Block 2.000.000	4% POS 1 año
+    else if (nHeight >= 1000000 && nHeight < 2000000) // Block 2.000.000	4% POS 2 año
         nRewardCoinYear = COIN_YEAR_REWARD_V2;	
     else if (nHeight < 1000000) //....................... Block 1.000.000 	4% POS 1 año
         nRewardCoinYear = COIN_YEAR_REWARD_V1;
