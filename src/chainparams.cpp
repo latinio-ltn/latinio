@@ -84,10 +84,7 @@ public:
 
 
         hashGenesisBlock = genesis.GetHash();
-        printf("%s\n", hash.ToString().c_str());
-        printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(hashGenesisBlock == uint256("0x000000a4c474bfdfb8a44965b4d6d09733d7486bd68ba0d324ae9e59389bec6b")); //0x000000a4c474bfdfb8a44965b4d6d09733d7486bd68ba0d324ae9e59389bec6b
+        assert(hashGenesisBlock == uint256("")); //0x000000a4c474bfdfb8a44965b4d6d09733d7486bd68ba0d324ae9e59389bec6b
         assert(genesis.hashMerkleRoot == uint256(""));//0xc50c4d2729973dd5b65424370bd34a03fb1cd68367d81057983c7aef4f6ae494
 
         vSeeds.push_back(CDNSSeedData("ns1.latinio.io", "ns1.latinio.io"));
