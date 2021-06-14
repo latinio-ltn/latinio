@@ -1073,15 +1073,15 @@ int64_t GetProofOfStakeRewardPercent(int nHeight)
         nRewardCoinYear = COIN_YEAR_REWARD_V17;
 	else if (nHeight >= 15000001 && nHeight <= 16000000) // Block 16.000.000 - 1% POS      
         nRewardCoinYear = COIN_YEAR_REWARD_V16;		
-    else if (nHeight >= 14000001 && nHeight <= 15000000) // Block 15.000.000 - 1% POS      
+    else if (nHeight >= 14000001 && nHeight <= 15000000) // Block 15.000.000	1% POS 15 año   
         nRewardCoinYear = COIN_YEAR_REWARD_V15; 
-    else if (nHeight >= 13000001 && nHeight <= 14000000) // Block 14.000.000 - 1% POS      
+    else if (nHeight >= 13000001 && nHeight <= 14000000) // Block 14.000.000	1% POS 14 año    
         nRewardCoinYear = COIN_YEAR_REWARD_V14; 
-    else if (nHeight >= 12000001 && nHeight <= 13000000) // Block 13.000.000 - 1% POS      
+    else if (nHeight >= 12000001 && nHeight <= 13000000) // Block 13.000.000	1% POS 13 año    
         nRewardCoinYear = COIN_YEAR_REWARD_V13; 
-    else if (nHeight >= 11000001 && nHeight <= 12000000) // Block 12.000.000 - 2% POS       
+    else if (nHeight >= 11000001 && nHeight <= 12000000) // Block 12.000.000	1% POS 12 año      
         nRewardCoinYear = COIN_YEAR_REWARD_V12; 
-    else if (nHeight >= 10000001 && nHeight <= 11000000) // Block 11.000.000 - 2% POS     
+    else if (nHeight >= 10000001 && nHeight <= 11000000) // Block 11.000.000	1% POS 11 año    
         nRewardCoinYear = COIN_YEAR_REWARD_V11;    
     else if (nHeight >= 9000001 && nHeight <= 10000000) // Block 10.000.000	2% POS 10 año
         nRewardCoinYear = COIN_YEAR_REWARD_V10;    
